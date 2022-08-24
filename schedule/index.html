@@ -9,6 +9,21 @@
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-g3cq{background-color:#D9EAD3;text-align:center;vertical-align:top}
+
+	body{
+		font-family: 'Noto Sans TC', sans-serif;
+
+		opacity: 1;
+    transition-duration: 1.5s;
+    transition-property: opacity;
+	}
+
+
+
+
+
+
+
 </style>
 
 
@@ -24,7 +39,7 @@
   </head>
   <body>
 
-
+	<div class="container mt-5">
 
 	<table class="tg table">
 	<thead>
@@ -121,11 +136,20 @@
 
 
 
-
+</div>
 
 
 
   </body>
 </html>
 
+<script>
+	 document.body.className = 'fade';
+	document.addEventListener("DOMContentLoaded", () => {
+      window.setTimeout(function() {
+        document.body.className = '';
+      }, 230);
+    });
 
+
+</script>
